@@ -5,9 +5,11 @@ const AboutSection = () => {
                 About Us
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-                We're building something amazing! This is a sample About Page where you
+                We&apos;re passionate about creating amazing experiences...
+                This is a sample About Page where you
                 can add details about your team, mission, or what your project is about.
             </p>
+
         </section>
     );
 };

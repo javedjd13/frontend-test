@@ -21,12 +21,12 @@ const UserList = () => {
             <div className="mb-6 flex justify-center">
                 <div className="flex-col">
 
-                <h1 className="text-3xl font-bold text-black mb-2">
-                    Explore User List
-                </h1>
-                <p className="text-black text-sm">
-                    Discover users and view their profile details.
-                </p>
+                    <h1 className="text-3xl font-bold text-black mb-2">
+                        Explore User List
+                    </h1>
+                    <p className="text-black text-sm">
+                        Discover users and view their profile details.
+                    </p>
                 </div>
             </div>
 
@@ -63,9 +63,8 @@ const UserList = () => {
                     ))}
                 </div>
             ) : (
-                <p className="text-gray-500 text-center text-sm">
-                    No users found for "{search}".
-                </p>
+                <p className="text-gray-500 text-center text-sm">Some text like &quot;example&quot; goes here.</p>
+
             )}
         </section>
     );
